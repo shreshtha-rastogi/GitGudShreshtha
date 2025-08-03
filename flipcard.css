@@ -1,0 +1,52 @@
+body.dark-theme {
+  background-color: #121212;
+  color: #f0f8ff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: aqua;
+  margin-bottom: 20px;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #1e1e1e;
+  color: transparent;
+  font-size: 2em;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card.flip {
+  background-color: aqua;
+  color: #121212;
+}
+
+#restartBtn {
+  background-color: aqua;
+  color: #121212;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#restartBtn:hover {
+  background-color: #00ffff;
+}
